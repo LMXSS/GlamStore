@@ -9,4 +9,9 @@ public class Product
     public string ImageUrl { get; set; }
     public float Stock { get; set; }
 
+    #region Category
+    public Guid CategoryId { get; set; }
+    public Category Category { get; set; }
+    #endregion
+
 }
